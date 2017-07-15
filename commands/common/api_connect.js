@@ -5,9 +5,9 @@ let api_client = clashAPI(); //Requires environment variable set to Clash of Cla
 class COC_Command extends commando.Command {
   constructor(client) {
     super(client, {
-      name: 'coctest',
+      name: 'test',
       group: 'common',
-      memberName: 'coctest',
+      memberName: 'test',
       description: 'Tests printing to discord info from COC API'
     });
   }
